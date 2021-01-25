@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-feed-service
-        image: gepl/udagram-api-feed
+        image: javaire/udagram-api-feed
         ports:
         - containerPort: 8080
         resources:
